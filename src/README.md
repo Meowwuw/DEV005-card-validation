@@ -1,7 +1,7 @@
 
 ## Card Validation
 
-Este proyecto es para validar números de tarjetas de crédito. La validación se realiza usando el algoritmo de Luhn.
+Bienvenido 👋 Este proyecto es para validar números de tarjetas de crédito. La validación se realiza usando el algoritmo de Luhn.
 
 ## Contenido
 
@@ -29,12 +29,8 @@ Para usar la validación de tarjetas, simplemente ingrese el número de su tarje
 
 ## Tecnologías utilizadas
 <p>
-<img src="image.png" alt="html" height="65"/>
+<img src="http://www.cursosgis.com/wp-content/uploads/2017/06/lenguajes_1.png" alt="html" height="65"/>
 </p>
-
-- HTML
-- CSS
-- JavaScript
 
 ## Cómo contribuir
 
@@ -48,6 +44,7 @@ Las contribuciones son bienvenidas y apreciadas. Si desea contribuir, siga estos
 
 ## Autor
 
-Este proyecto fue desarrollado por Magenta Paredes.
+Este proyecto fue desarrollado por Magenta Paredes😸♥️
+.
 
 
