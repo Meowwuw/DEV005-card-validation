@@ -17,6 +17,8 @@ Para utilizar este proyecto, se debe clonar este repositorio o descargar los arc
 
 git clone https://github.com/your-username/DEV005-card-validation.git
 
+Ingresar al enlace https://meowwuw.github.io/DEV005-card-validation/src/
+
 ## Funcionalidades
 
 - Valida si un número de tarjeta es válido o no según el algoritmo de Luhn.
