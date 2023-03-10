@@ -2,13 +2,52 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Card Validation</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+
+    <div id="root">
+
+      <div id="card">
+        <div id="card-bottom"></div>
+        <div id="card-top">
+          <div class="logo">
+            <br>
+            <img class="company-logo" src="imagenes/visa.png" alt="TarjetaVisa" width="65px" height="32px" style="display: none;">
+            <img class="company-logo" src="imagenes/mastercard.png" alt="TarjetaMastercard" width="65px" height="32px" style="display: none;">
+            <img class="company-logo" src="imagenes/troy.png" alt="TarjetaTroy" width="65px" height="32px" style="display: none;">
+            <img class="company-logo" src="imagenes/discover.png" alt="TarjetaDiscover" width="65px" height="32px" style="display: none;">
+        </div>
+          <div class="card-number" id="numero-tarjeta">
+            XXXX XXXX XXXX XXXX
+          </div>
+          <div class="row-container">
+            
+          </div>
+        </div>  
+      </div>
+    
+      <form id="form">
+        <header>
+          
+        
+          <span id="cardType"></span>
+          <h2 style="font-family: 'Montserrat', sans-serif;">Ingrese la informacion de su tarjeta</h2>
+          <label id="validacion"></label>
+        </header>
+        <fieldset class="card-number">
+          <span>
+            <input type="text" pattern="[0-9]{0,16}" id="card-number" maxlength="16" placeholder="1234 5678 9101 1121">
+          </span>
+        </fieldset>
+        <button type="submit">refrescar</button>
+        <button type="button" id="send-button">Enviar</button>
+        
+      </form>  
+       </div>
+      
+    <script type="module" src="index.js"></script>
   </body>
 </html>

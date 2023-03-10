@@ -1,0 +1,7 @@
+maskify(creditCardNumber) {
+    const arrayNumber = creditCardNumber.toString().split('');
+    const maskedArray = arrayNumber.map((digit, index) => {
+      return index < arrayNumber.length - 4 ? digit : '#';
+    });
+    return maskedArray.join('');
+  }
